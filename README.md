@@ -32,8 +32,9 @@ Clone the repository. Run the following commands in the new repository folder
 ```
 composer install
 cp .env.example .env
-./vendor/bin/sail up
+./vendor/bin/sail up -d
 ./vendor/bin/sail artisan key:generate
+./vendor/bin/sail npm install
 ./vendor/bin/sail npm run dev
 ```
 
