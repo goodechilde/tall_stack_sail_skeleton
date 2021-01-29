@@ -30,10 +30,10 @@ need to focus more on that at some point.
 ## Getting started
 Clone the repository. Run the following commands in the new repository folder
 ```
-./vendor/bin/sail up
-./vendor/bin/sail composer install
+composer install
 cp .env.example .env
-./vendor/bin/sail composer key:generate
+./vendor/bin/sail up
+./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail npm run dev
 ```
 
