@@ -27,5 +27,6 @@ class RecipeSingle extends Component
         $this->recipe->user_id = auth()->user()->id;
         $this->recipe->update();
 
+        $this->notify('Recipe saved!');
     }
 }
